@@ -2,7 +2,7 @@ module ClashKit
 
 go 1.18
 
-require github.com/Dreamacro/clash v1.9.0
+require https://github.com/hiFrankYoung/clash v1.18.0
 
 require (
 	github.com/Dreamacro/go-shadowsocks2 v0.1.8 // indirect
@@ -27,5 +27,3 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace github.com/Dreamacro/clash v1.9.0 => https://github.com/hiFrankYoung/clash v1.18.0
